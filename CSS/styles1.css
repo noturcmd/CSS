@@ -1,0 +1,14 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+P{
+    background-color: aqua;
+}
+
+.fixed-position{
+    position: fixed;
+    background-color: coral;
+    left: 0;
+    top: 50px;
+}
