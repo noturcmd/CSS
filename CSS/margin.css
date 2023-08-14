@@ -1,0 +1,22 @@
+header{
+    width: 100px;
+    height: 20px;
+    background-color: darkgreen;
+}
+
+a{
+    display: inline-block;
+    background-color: crimson;
+    margin-top: 70px;
+}
+b{
+    display: inline-block;
+}
+b#bold1{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+b#bold2{
+    margin-left: 50px;
+}
