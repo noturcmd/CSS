@@ -1,22 +1,19 @@
-header{
-    width: 100px;
-    height: 20px;
-    background-color: darkgreen;
+.kotak1, .kotak2, .kotak3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
 }
 
-a{
-    display: inline-block;
+.kotak1{
     background-color: crimson;
-    margin-top: 70px;
-}
-b{
-    display: inline-block;
-}
-b#bold1{
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-right: -100px;
 }
 
-b#bold2{
-    margin-left: 50px;
+.kotak2{
+    background-color: darkblue;
+    margin-right: -100px;
+}
+
+.kotak3{
+    background-color: greenyellow;
 }
