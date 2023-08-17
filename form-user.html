@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlonePainPeanut</title>
+    <style>
+      button[id="submit-button"] {
+        background-color: greenyellow;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Belajar HTML Form</h3>
+    <br /><br /><br />
+    <form action="" method="post">
+      <table cellspacing="10">
+        <tr>
+          <td>
+            <label for="input-name">Name</label>
+          </td>
+          <td>:</td>
+          <td><input type="text" id="input-name" required /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="input-password">Password</label>
+          </td>
+          <td>:</td>
+          <td><input type="password" id="input-password" required /></td>
+        </tr>
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>:</td>
+          <td>
+            <input
+              type="radio"
+              id="input-gender-male"
+              name="input-gender"
+            /><label for="input-gender">Male</label
+            ><input
+              type="radio"
+              id="input-gender-female"
+              name="input-gender"
+            /><label for="input-gender">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Hobby</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="checkbox"
+              value="sleepy"
+              id="sleepy"
+              name="first-hobby"
+            /><label for="sleepy">Sleepy</label
+            ><input
+              type="checkbox"
+              value="cooking"
+              id="cooking"
+              name="second-hobby"
+            /><label for="cooking">Cooking</label>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="3">
+            <button type="submit" value="submit" id="submit-button">
+              Submit
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
