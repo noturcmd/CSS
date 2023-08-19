@@ -1,0 +1,16 @@
+
+div{
+    width: 600px;
+    height: 400px;
+    background-color: #ff9966;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 600px;
+    overflow: hidden;
+}
+
+div img{
+    width: 600px;
+    height: 400px;
+}
